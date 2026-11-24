@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+temp_analysis/
+.DS_Store
+
+INFO/
+.gitignore~
