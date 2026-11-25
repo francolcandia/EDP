@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Redirecciones 301 de páginas eliminadas a Contacto o Inicio
+RewriteRule ^sectores(\.html)?$ /servicios.html [R=301,L]
+RewriteRule ^insights(\.html)?$ /index.html [R=301,L]
+RewriteRule ^agendar(\.html)?$ /contacto.html [R=301,L]
+RewriteRule ^equipo(\.html)?$ /nosotros.html [R=301,L]

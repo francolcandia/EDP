@@ -2,3 +2,9 @@ User-agent: *
 Allow: /
 
 Sitemap: https://edpadvisory.com/sitemap.xml
+
+# Rutas despublicadas o en pausa
+Disallow: /equipo.html
+Disallow: /sectores.html
+Disallow: /insights.html
+Disallow: /agendar.html

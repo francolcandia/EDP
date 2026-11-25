@@ -1,21 +1,19 @@
-[build]
-  publish = "."
+[[redirects]]
+  from = "/sectores*"
+  to = "/servicios.html"
+  status = 301
 
 [[redirects]]
-  from = "/*"
-  to = "/:splat"
-  status = 200
+  from = "/insights*"
+  to = "/index.html"
+  status = 301
 
-# Headers de seguridad y rendimiento
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+[[redirects]]
+  from = "/agendar*"
+  to = "/contacto.html"
+  status = 301
 
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+[[redirects]]
+  from = "/equipo*"
+  to = "/nosotros.html"
+  status = 301
